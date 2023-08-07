@@ -1,0 +1,20 @@
+JAVA PROGRAM to accept the starting number and how many multiples needed number as acccepted as input
+
+
+INPUT:
+5 10
+
+OUTPUT:
+5 10 15 20 25 30 35 40 45 50
+
+JAVA PROGRAM:
+import java.util.*;
+public class nnumbers{
+public static void main(String args[]){
+Scanner sc = new Scanner(System.in);
+int a=sc.nextInt();
+int b=sc.nextInt();
+for(int i=a;i<=a*b;i+=a)
+{
+System.out.print(i+" ");
+}
